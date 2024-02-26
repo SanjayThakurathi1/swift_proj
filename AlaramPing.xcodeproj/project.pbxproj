@@ -1,0 +1,657 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		50215AED2B8D06E800999C5C /*  alaram_sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 50215AEC2B8D06E800999C5C /*  alaram_sound.mp3 */; };
+		504BE8872B8C6BEC00FDB499 /* AlaramPingApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 504BE8862B8C6BEC00FDB499 /* AlaramPingApp.swift */; };
+		504BE8892B8C6BEC00FDB499 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 504BE8882B8C6BEC00FDB499 /* ContentView.swift */; };
+		504BE88B2B8C6BEC00FDB499 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 504BE88A2B8C6BEC00FDB499 /* Item.swift */; };
+		504BE88D2B8C6BED00FDB499 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 504BE88C2B8C6BED00FDB499 /* Assets.xcassets */; };
+		504BE8902B8C6BED00FDB499 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 504BE88F2B8C6BED00FDB499 /* Preview Assets.xcassets */; };
+		504BE89A2B8C6BED00FDB499 /* AlaramPingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 504BE8992B8C6BED00FDB499 /* AlaramPingTests.swift */; };
+		504BE8A42B8C6BED00FDB499 /* AlaramPingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 504BE8A32B8C6BED00FDB499 /* AlaramPingUITests.swift */; };
+		504BE8A62B8C6BED00FDB499 /* AlaramPingUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 504BE8A52B8C6BED00FDB499 /* AlaramPingUITestsLaunchTests.swift */; };
+		504BE8B82B8C71B400FDB499 /* Alaram.swift in Sources */ = {isa = PBXBuildFile; fileRef = 504BE8B72B8C71B400FDB499 /* Alaram.swift */; };
+		504BE8BB2B8C71F700FDB499 /* AlaramViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 504BE8BA2B8C71F700FDB499 /* AlaramViewModel.swift */; };
+		504BE8C42B8CA45400FDB499 /* ContentView.swift in Resources */ = {isa = PBXBuildFile; fileRef = 504BE8882B8C6BEC00FDB499 /* ContentView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		504BE8962B8C6BED00FDB499 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 504BE87B2B8C6BEB00FDB499 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 504BE8822B8C6BEC00FDB499;
+			remoteInfo = AlaramPing;
+		};
+		504BE8A02B8C6BED00FDB499 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 504BE87B2B8C6BEB00FDB499 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 504BE8822B8C6BEC00FDB499;
+			remoteInfo = AlaramPing;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		50215AEA2B8D028200999C5C /* AlaramPing.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = AlaramPing.entitlements; sourceTree = "<group>"; };
+		50215AEC2B8D06E800999C5C /*  alaram_sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = " alaram_sound.mp3"; sourceTree = "<group>"; };
+		504BE8832B8C6BEC00FDB499 /* AlaramPing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AlaramPing.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		504BE8862B8C6BEC00FDB499 /* AlaramPingApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlaramPingApp.swift; sourceTree = "<group>"; };
+		504BE8882B8C6BEC00FDB499 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		504BE88A2B8C6BEC00FDB499 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		504BE88C2B8C6BED00FDB499 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		504BE88F2B8C6BED00FDB499 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		504BE8952B8C6BED00FDB499 /* AlaramPingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AlaramPingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		504BE8992B8C6BED00FDB499 /* AlaramPingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlaramPingTests.swift; sourceTree = "<group>"; };
+		504BE89F2B8C6BED00FDB499 /* AlaramPingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AlaramPingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		504BE8A32B8C6BED00FDB499 /* AlaramPingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlaramPingUITests.swift; sourceTree = "<group>"; };
+		504BE8A52B8C6BED00FDB499 /* AlaramPingUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlaramPingUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		504BE8B72B8C71B400FDB499 /* Alaram.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alaram.swift; sourceTree = "<group>"; };
+		504BE8BA2B8C71F700FDB499 /* AlaramViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlaramViewModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		504BE8802B8C6BEC00FDB499 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		504BE8922B8C6BED00FDB499 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		504BE89C2B8C6BED00FDB499 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		50215AEB2B8D06E800999C5C /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				50215AEC2B8D06E800999C5C /*  alaram_sound.mp3 */,
+			);
+			path = Sounds;
+			sourceTree = "<group>";
+		};
+		504BE87A2B8C6BEB00FDB499 = {
+			isa = PBXGroup;
+			children = (
+				504BE8852B8C6BEC00FDB499 /* AlaramPing */,
+				504BE8982B8C6BED00FDB499 /* AlaramPingTests */,
+				504BE8A22B8C6BED00FDB499 /* AlaramPingUITests */,
+				504BE8842B8C6BEC00FDB499 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		504BE8842B8C6BEC00FDB499 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				504BE8832B8C6BEC00FDB499 /* AlaramPing.app */,
+				504BE8952B8C6BED00FDB499 /* AlaramPingTests.xctest */,
+				504BE89F2B8C6BED00FDB499 /* AlaramPingUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		504BE8852B8C6BEC00FDB499 /* AlaramPing */ = {
+			isa = PBXGroup;
+			children = (
+				50215AEB2B8D06E800999C5C /* Sounds */,
+				50215AEA2B8D028200999C5C /* AlaramPing.entitlements */,
+				504BE8B92B8C71D500FDB499 /* ViewModel */,
+				504BE8B42B8C6E8400FDB499 /* Services */,
+				504BE8B52B8C6E9200FDB499 /* Models */,
+				504BE8B62B8C6EA300FDB499 /* Views */,
+				504BE8862B8C6BEC00FDB499 /* AlaramPingApp.swift */,
+				504BE8882B8C6BEC00FDB499 /* ContentView.swift */,
+				504BE88A2B8C6BEC00FDB499 /* Item.swift */,
+				504BE88C2B8C6BED00FDB499 /* Assets.xcassets */,
+				504BE88E2B8C6BED00FDB499 /* Preview Content */,
+			);
+			path = AlaramPing;
+			sourceTree = "<group>";
+		};
+		504BE88E2B8C6BED00FDB499 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				504BE88F2B8C6BED00FDB499 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		504BE8982B8C6BED00FDB499 /* AlaramPingTests */ = {
+			isa = PBXGroup;
+			children = (
+				504BE8992B8C6BED00FDB499 /* AlaramPingTests.swift */,
+			);
+			path = AlaramPingTests;
+			sourceTree = "<group>";
+		};
+		504BE8A22B8C6BED00FDB499 /* AlaramPingUITests */ = {
+			isa = PBXGroup;
+			children = (
+				504BE8A32B8C6BED00FDB499 /* AlaramPingUITests.swift */,
+				504BE8A52B8C6BED00FDB499 /* AlaramPingUITestsLaunchTests.swift */,
+			);
+			path = AlaramPingUITests;
+			sourceTree = "<group>";
+		};
+		504BE8B42B8C6E8400FDB499 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		504BE8B52B8C6E9200FDB499 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				504BE8B72B8C71B400FDB499 /* Alaram.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		504BE8B62B8C6EA300FDB499 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		504BE8B92B8C71D500FDB499 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				504BE8BA2B8C71F700FDB499 /* AlaramViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		504BE8822B8C6BEC00FDB499 /* AlaramPing */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 504BE8A92B8C6BED00FDB499 /* Build configuration list for PBXNativeTarget "AlaramPing" */;
+			buildPhases = (
+				504BE87F2B8C6BEC00FDB499 /* Sources */,
+				504BE8802B8C6BEC00FDB499 /* Frameworks */,
+				504BE8812B8C6BEC00FDB499 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AlaramPing;
+			productName = AlaramPing;
+			productReference = 504BE8832B8C6BEC00FDB499 /* AlaramPing.app */;
+			productType = "com.apple.product-type.application";
+		};
+		504BE8942B8C6BED00FDB499 /* AlaramPingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 504BE8AC2B8C6BED00FDB499 /* Build configuration list for PBXNativeTarget "AlaramPingTests" */;
+			buildPhases = (
+				504BE8912B8C6BED00FDB499 /* Sources */,
+				504BE8922B8C6BED00FDB499 /* Frameworks */,
+				504BE8932B8C6BED00FDB499 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				504BE8972B8C6BED00FDB499 /* PBXTargetDependency */,
+			);
+			name = AlaramPingTests;
+			productName = AlaramPingTests;
+			productReference = 504BE8952B8C6BED00FDB499 /* AlaramPingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		504BE89E2B8C6BED00FDB499 /* AlaramPingUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 504BE8AF2B8C6BED00FDB499 /* Build configuration list for PBXNativeTarget "AlaramPingUITests" */;
+			buildPhases = (
+				504BE89B2B8C6BED00FDB499 /* Sources */,
+				504BE89C2B8C6BED00FDB499 /* Frameworks */,
+				504BE89D2B8C6BED00FDB499 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				504BE8A12B8C6BED00FDB499 /* PBXTargetDependency */,
+			);
+			name = AlaramPingUITests;
+			productName = AlaramPingUITests;
+			productReference = 504BE89F2B8C6BED00FDB499 /* AlaramPingUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		504BE87B2B8C6BEB00FDB499 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					504BE8822B8C6BEC00FDB499 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					504BE8942B8C6BED00FDB499 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 504BE8822B8C6BEC00FDB499;
+					};
+					504BE89E2B8C6BED00FDB499 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 504BE8822B8C6BEC00FDB499;
+					};
+				};
+			};
+			buildConfigurationList = 504BE87E2B8C6BEB00FDB499 /* Build configuration list for PBXProject "AlaramPing" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 504BE87A2B8C6BEB00FDB499;
+			productRefGroup = 504BE8842B8C6BEC00FDB499 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				504BE8822B8C6BEC00FDB499 /* AlaramPing */,
+				504BE8942B8C6BED00FDB499 /* AlaramPingTests */,
+				504BE89E2B8C6BED00FDB499 /* AlaramPingUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		504BE8812B8C6BEC00FDB499 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				504BE8C42B8CA45400FDB499 /* ContentView.swift in Resources */,
+				50215AED2B8D06E800999C5C /*  alaram_sound.mp3 in Resources */,
+				504BE8902B8C6BED00FDB499 /* Preview Assets.xcassets in Resources */,
+				504BE88D2B8C6BED00FDB499 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		504BE8932B8C6BED00FDB499 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		504BE89D2B8C6BED00FDB499 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		504BE87F2B8C6BEC00FDB499 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				504BE8892B8C6BEC00FDB499 /* ContentView.swift in Sources */,
+				504BE8BB2B8C71F700FDB499 /* AlaramViewModel.swift in Sources */,
+				504BE8B82B8C71B400FDB499 /* Alaram.swift in Sources */,
+				504BE88B2B8C6BEC00FDB499 /* Item.swift in Sources */,
+				504BE8872B8C6BEC00FDB499 /* AlaramPingApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		504BE8912B8C6BED00FDB499 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				504BE89A2B8C6BED00FDB499 /* AlaramPingTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		504BE89B2B8C6BED00FDB499 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				504BE8A62B8C6BED00FDB499 /* AlaramPingUITestsLaunchTests.swift in Sources */,
+				504BE8A42B8C6BED00FDB499 /* AlaramPingUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		504BE8972B8C6BED00FDB499 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 504BE8822B8C6BEC00FDB499 /* AlaramPing */;
+			targetProxy = 504BE8962B8C6BED00FDB499 /* PBXContainerItemProxy */;
+		};
+		504BE8A12B8C6BED00FDB499 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 504BE8822B8C6BEC00FDB499 /* AlaramPing */;
+			targetProxy = 504BE8A02B8C6BED00FDB499 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		504BE8A72B8C6BED00FDB499 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		504BE8A82B8C6BED00FDB499 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		504BE8AA2B8C6BED00FDB499 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = AlaramPing/AlaramPing.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AlaramPing/Preview Content\"";
+				DEVELOPMENT_TEAM = YLXC84T9HM;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = sanjay.AlaramPing;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		504BE8AB2B8C6BED00FDB499 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = AlaramPing/AlaramPing.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AlaramPing/Preview Content\"";
+				DEVELOPMENT_TEAM = YLXC84T9HM;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = sanjay.AlaramPing;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		504BE8AD2B8C6BED00FDB499 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YLXC84T9HM;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = sanjay.AlaramPingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AlaramPing.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AlaramPing";
+			};
+			name = Debug;
+		};
+		504BE8AE2B8C6BED00FDB499 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YLXC84T9HM;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = sanjay.AlaramPingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AlaramPing.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AlaramPing";
+			};
+			name = Release;
+		};
+		504BE8B02B8C6BED00FDB499 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YLXC84T9HM;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = sanjay.AlaramPingUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AlaramPing;
+			};
+			name = Debug;
+		};
+		504BE8B12B8C6BED00FDB499 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YLXC84T9HM;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = sanjay.AlaramPingUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AlaramPing;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		504BE87E2B8C6BEB00FDB499 /* Build configuration list for PBXProject "AlaramPing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				504BE8A72B8C6BED00FDB499 /* Debug */,
+				504BE8A82B8C6BED00FDB499 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		504BE8A92B8C6BED00FDB499 /* Build configuration list for PBXNativeTarget "AlaramPing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				504BE8AA2B8C6BED00FDB499 /* Debug */,
+				504BE8AB2B8C6BED00FDB499 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		504BE8AC2B8C6BED00FDB499 /* Build configuration list for PBXNativeTarget "AlaramPingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				504BE8AD2B8C6BED00FDB499 /* Debug */,
+				504BE8AE2B8C6BED00FDB499 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		504BE8AF2B8C6BED00FDB499 /* Build configuration list for PBXNativeTarget "AlaramPingUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				504BE8B02B8C6BED00FDB499 /* Debug */,
+				504BE8B12B8C6BED00FDB499 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 504BE87B2B8C6BEB00FDB499 /* Project object */;
+}
